@@ -1,0 +1,40 @@
+[user]
+	name = Chidindu Ogbonna
+	email = pogbonna34@gmail.com
+
+[core]
+	editor = nvim
+	; excludesfile = ~/.gitignore
+
+[merge]
+	keepBackup = false;
+	tool = p4merge
+
+[mergetool]
+	prompt = false
+
+[diff]
+	tool = p4merge
+
+[difftool]
+	prompt = false
+
+[push]
+	default = matching
+
+[alias]
+	co = checkout
+	b = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	ls = ls-files
+	deleted = log --diff-filter=D --summary
+
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+
