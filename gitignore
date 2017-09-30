@@ -1,0 +1,11 @@
+# Ignore all pyc and pyo
+*.py[oc]
+
+# Ignore all pycache
+__pycache__/
+app/**/__pycache__/
+
+# Don't track these
+TODO
+
+
